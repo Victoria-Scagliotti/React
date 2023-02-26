@@ -1,0 +1,27 @@
+.navbarContainer {
+    background-color: rgb(50, 50, 50);
+    color: palevioletred;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 8vh;
+    padding: 10px;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.categoriesList {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-decoration-style: none;
+    gap: 5rem;
+    text-transform: uppercase;
+}
