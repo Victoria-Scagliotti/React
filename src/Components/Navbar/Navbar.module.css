@@ -12,10 +12,22 @@
 
 .logoContainer {
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
 }
+
+.brandLogo{
+
+};
+
+.brandName{
+
+};
+
+.categoriesContainer{};
 
 .categoriesList {
     display: flex;
@@ -25,3 +37,5 @@
     gap: 5rem;
     text-transform: uppercase;
 }
+
+.categoriesLi{};
