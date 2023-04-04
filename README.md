@@ -1,74 +1,63 @@
-# Getting Started with Create React App
+# NiFanáticos - Ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+!["Logo"](https://res.cloudinary.com/drpltpicv/image/upload/v1680359856/pngegg_1_1_gecvu2.png)
 
-In the project directory, you can run:
 
-### `npm start`
+### INSPIRACION
+Como Otaku y como futura programadora no podía desaprovechar la oportunidad de combinar estas dos y crear la tiendita mas Kawaii de toda la web.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Aquí podrás adquirir los mejores productos de tus animes y mangas preferidos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### LINK A MI REPOSITORIO:
+`https://github.com/Victoria-Scagliotti/React.git`
 
 
 
-``E
+### DEPENDENCIAS
+#### Algunas de las dependencias que he instalado:
+- "@fontsource/roboto": "^4.5.8"
+
+    `$ npm install @fontsource/roboto`
+- "@mui/icons-material": "^5.11.11"
+
+    `$ npm install @mui/icons-material`
+- "@mui/material": "^5.11.15"
+
+    `$ npm install @mui/material @emotion/react @emotion/styled`
+- "firebase": "^9.19.1"
+
+    `$ npm install firebase`
+- "formik": "^2.2.9"
+
+    `$ npm install formik --save`
+- "react-icons": "^4.8.0"
+
+    `$ npm i react-icons`
+- "react-router-dom": "^6.9.0"
+
+    `$ npm install react-router-dom`
+- "react-scripts": "5.0.1"
+
+    `$ npm i react-scripts`
+- "react-spinners": "^0.13.8"
+
+    `$ npm install react-spinners`
+- "sweetalert": "^2.1.2"
+
+    `$ npm install sweetalert`
+- "sweetalert2": "^11.7.3"
+
+    `$ npm install sweetalert2`
+- "yup": "^1.0.2"
+
+    `$ npm install yup`
+
+
+### NOVEDADES:
+Proximamente agregaremos el panel de control para que crees tu propio Ecommerce y puedas manjear tu base de datos de la manera más fácil, el código dejamelo a mí ;)
+
+
+### INGRESÁ AQUÍ A LA WEBSITE Y PROBALO VOS MISMO: 
+
+https://mui.com/material-ui/material-icons/
