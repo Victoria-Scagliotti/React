@@ -1,5 +1,4 @@
 import React from "react";
-
 import Card from "@mui/material/Card";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -21,18 +20,20 @@ const Item = ({ element }) => {
         boxShadow: "0px 0px 10px black",
       }}
     >
+
       <CardMedia
-        sx={{ height: 160, backgroundColor: "whitesmoke" }}
+        sx={{ height: 180}}
         image={element.img}
-        title="green iguana"
       />
-      <CardContent sx={{ height: 130 }}>
-        <Typography gutterBottom variant="h5" component="div" align="center">
+
+      <CardContent sx={{ height: 80 }} align="center">
+        <Typography gutterBottom variant="h5" component="div" align="center" color="lightskyblue" textTransform="uppercase">
           {element.title}
         </Typography>
         <Typography variant="body2">{element.description}</Typography>
-        <Typography variant="body">${element.price}.-</Typography>
+        <Typography variant="body">${element.price}</Typography>
       </CardContent>
+
       <CardActions>
         <Link to={`/itemDetail/${element.id}`}>
           <Button size="small" variant="contained" color="primary">
@@ -40,6 +41,7 @@ const Item = ({ element }) => {
           </Button>
         </Link>
       </CardActions>
+      
     </Card>
   );
 };

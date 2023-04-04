@@ -1,0 +1,41 @@
+.navbarContainer {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 100%;
+}
+
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.brandLogo{
+    padding: 10px;
+
+};
+
+.brandName Link {
+  text-decoration: none;
+  color: lightskyblue;
+}
+
+.categoriesLi {
+  list-style-type: none;
+  color: lightskyblue;
+  text-transform: uppercase;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+};
+
+.cartContainer{
+  display: inline;
+};
