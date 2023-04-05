@@ -1,0 +1,27 @@
+.itemDetailContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: lightskyblue;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.imageContainer{
+    overflow: hidden;
+    margin: 20px;
+    border-radius: 100px;
+}
+
+.detailContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center
+
+};

@@ -1,27 +1,28 @@
 
-import React from "react";
+import Styles from "./Styles/ItemDetail.module.css"
 import ItemCount from "../ItemCount/ItemCount";
 //import "./ItemDetail.css";
 
 const ItemDetail = ({ productSelected, onAdd, quantity }) => {
   return (
-    <div className={"containerItemDetail"}>
-      <div className={"containerImage"}>
-        <img src={productSelected.img} alt="" />
+
+    <div className={Styles.itemDetailContainer}>
+      <div className={Styles.imageContainer}>
+        <img src={productSelected.img} alt="" width={"400px"}/>
       </div>
 
-      <div className={"containerDetail"}>
-        <h2 style={{ fontFamily: "monospace" }}>
-          <span style={{ fontSize: "23px" }}>Nombre:</span>{" "}
+      <div className={Styles.detailContainer}>
+        <h2 Styles={{ fontFamily: "monospace" }}>
+          <span></span>{" "}
           {productSelected.title}
         </h2>
-        <h2 style={{ fontFamily: "monospace" }}>
-          <span style={{ fontSize: "23px" }}>Descripcion:</span>{" "}
+        <h2 Styles={{ fontFamily: "monospace" }}>
+          <span></span>{" "}
           {productSelected.description}
         </h2>
-        <h2 style={{ fontFamily: "monospace" }}>
-          <span style={{ fontSize: "23px" }}>Precio:</span> $
-          {productSelected.price}.-
+        <h2 Styles={{ fontFamily: "monospace" }}>
+          <span>Precio:</span> $
+          {productSelected.price}
         </h2>
 
         <ItemCount

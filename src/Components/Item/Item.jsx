@@ -14,7 +14,7 @@ const Item = ({ element }) => {
         width: 345,
         height: 350,
         backgroundColor: "black",
-        color: "white",
+        color: "whitesmoke",
         border: "1px solid black",
         borderRadius: "10px",
         boxShadow: "0px 0px 10px black",
@@ -31,13 +31,13 @@ const Item = ({ element }) => {
           {element.title}
         </Typography>
         <Typography variant="body2">{element.description}</Typography>
-        <Typography variant="body">${element.price}</Typography>
+        <Typography variant="body" color={"lightskyblue"}>${element.price}</Typography>
       </CardContent>
 
       <CardActions>
         <Link to={`/itemDetail/${element.id}`}>
           <Button size="small" variant="contained" color="primary">
-            Ver detalle
+            VER MÁS
           </Button>
         </Link>
       </CardActions>

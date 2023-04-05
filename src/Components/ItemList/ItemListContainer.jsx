@@ -38,8 +38,9 @@ const ItemListContainer = () => {
     return (
       <div style={{ display: "flex", justifyContent: "center" }}>
         <PulseLoader
-          color={"#7F669D"}
-          size={50}
+          margin={"100px"}
+          color={"lightskyblue"}
+          size={40}
           aria-label="Loading Spinner"
           data-testid="loader"
         />

@@ -15,7 +15,7 @@ const CartWidget = () => {
 
     <Link to="/cart" className={styles.cartContainer}>
         
-      <ShoppingCartIcon style={{color:"lightskyblue"}}/>
+      <ShoppingCartIcon/>
 
       <div className="bubble-counter">
         <span>{total}</span>
