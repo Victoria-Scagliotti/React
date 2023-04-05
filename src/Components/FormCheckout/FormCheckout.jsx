@@ -1,7 +1,9 @@
+import Styles from "./Styles/FormCheckout.module.css"
+
 const FormCheckout = ({handleSubmit, setUserData, userData}) => {
 
   return ( 
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} className={Styles.formContainer}>
         <input
           type="text"
           placeholder="Nombre"

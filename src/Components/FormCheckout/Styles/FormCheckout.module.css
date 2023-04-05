@@ -1,0 +1,8 @@
+.formContainer{
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+};

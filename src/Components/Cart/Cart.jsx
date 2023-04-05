@@ -4,7 +4,7 @@ import { CartContext } from "../Context/CartContext";
 import Swal from "sweetalert2";
 import { Link } from "react-router-dom";
 import FormCheckoutContainer from "../FormCheckout/FormCheckoutContainer";
-//import Styles from "./Styles/Cart.module.css";
+import Styles from "./Styles/Cart.module.css";
 
 const Cart = () => {
 
@@ -33,8 +33,16 @@ const Cart = () => {
 
   if(orderId){
     return (
-      <div>
-        <h2>Gracias por su compra</h2>
+      <div style={
+        {backgroundColor: "lightskyblue", 
+          height:"80vh", 
+          padding:"30px",
+          display:"flex", 
+          flexDirection:"column",
+          justifyContent:"center",
+          textAlign:"center"
+          }}>
+        <h2>Has tomado una excelente decisión, que mejor que tener un recuerdo de tu anime o te manga favorito? Nada!!</h2>
         <h4>el comprobante es : {orderId}</h4>
         <Link to="/">Seguir comprando</Link>
       </div>
@@ -44,18 +52,18 @@ const Cart = () => {
   return (
     <div>
       {!showForm ? (
-        <div className="cart-container">
-          <div className="container-items">
+        <div className={Styles.cartContainer}>
+          <div>
             {cart.map((item) => {
               return (
-                <div key={item.id} className="cart-item">
-                  <img src={item.img} alt="" />
-                  <div className="cart-item-info">
+                <div key={item.id} className={Styles.cartItemInfoContainer}>
+                  <img src={item.img} alt="" width={"300px"}/>
+                  <div className={Styles.cartItemInfo}>
                     <h2>{item.name}</h2>
-                    <h2>${item.price}.-</h2>
                     <h2>Unidades: {item.quantity}</h2>
+                    <h2>${item.price}</h2>
                     <Button
-                      color="secondary"
+                      color="primary"
                       variant="contained"
                       onClick={() => deleteProductById(item.id)}
                     >
@@ -66,19 +74,18 @@ const Cart = () => {
               );
             })}
           </div>
-          <div className="cart-info">
-            <h3>Precio total: {getTotalPrice()}</h3>
 
+          <div className={Styles.cartInfo}>
+
+            <h1>Total de la compra: ${getTotalPrice()}</h1>
             {cart.length > 0 && (
-              <div className="btn-cart">
-                <Button variant="contained" onClick={()=>setShowForm(true)}>Terminar la compra</Button>
+              <div>
+                <Button style={{margin: "10px"}} variant="contained" onClick={()=>setShowForm(true)}>Terminar la compra</Button>
                 <Button onClick={clear} variant="contained">
                   Vaciar carrito
                 </Button>
               </div>
             )}
-
-            <h1>El total del carrito es ${getTotalPrice()}</h1>
 
           </div>
         </div>
